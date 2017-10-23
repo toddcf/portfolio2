@@ -21,7 +21,6 @@
 	<!-- Custom CSS -->
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
-	<link rel="stylesheet" type="text/css" href="assets/css/video.css">
 
 	<!-- Favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -34,38 +33,32 @@
 	<meta name="theme-color" content="#ffffff">
 
 	<!-- Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
 </head>
 
 <body id="home">
 
+	<!-- Video Header -->
 	<header>
 		
-		<!--Video Section-->
-		<section class="content-section video-section">
-			<div class="pattern-overlay">
-				<a id="bgndVideo" class="player" data-property="{videoURL:'https://www.youtube.com/watch?v=fdJc1_IBKJA',containment:'.video-section', quality:'large', autoPlay:true, mute:true, opacity:1}">bg</a>
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-12">
-							<h1>Full Width Video</h1>  
-							<h3>Enjoy Adding Full Screen Videos to your Page Sections</h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!--Video Section Ends Here-->
+		<!--Text Overlay -->
+		<article>
+		<h1>GROSS DESIGN co. <br /> <span>(Made by <a href="http://mattgross.io" target="_blank">Matt Gross</a>, for <a href="https://evenvision.com">EvenVision</a>)</span></h1>
+		</article>
 
+		<!--  Video is muted & autoplays, placed after major DOM elements for performance & has an image fallback  -->
+		<video autoplay loop id="video-background" muted plays-inline>
+		<source src="assets/video/tropical.mp4" type="video/mp4">
+		</video>
+		<!--Video Section Ends Here-->
 
 	</header>
 
+
+
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-	<!-- Video Player -->
-	<script src="assets/js/video.js"></script>
-	<script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 
 </body>
 </html>
