@@ -59,6 +59,9 @@ header article h2 {
 
 .btn-enter {
 	border: 5px white solid;
+	font-size: 150%;
+	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .section-header {
