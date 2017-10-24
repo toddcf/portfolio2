@@ -19,8 +19,18 @@ header article {
 	-webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
 	    	transform: translate(-50%, -50%);
-	/*text-align: center;*/
 
+}
+
+header article h1 {
+	font-size: 6rem;
+	letter-spacing: 1.3rem;
+	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
+}
+
+header article h2 {
+	font-size: 4rem;
+	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
 }
 
 #video-background {
