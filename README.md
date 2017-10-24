@@ -27,8 +27,7 @@ Second iteration of my web developer portfolio.
 
 ### Proficiencies
 
-- Add bg image (night stars time lapse).
-- Create flexbox, and add a logo for each technology I know.
+- Make all logos the same size.
 - Add effect where each logo animates into view when scrolled to.
 
 ### UI/UX Projects
