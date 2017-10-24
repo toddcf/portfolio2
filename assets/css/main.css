@@ -31,12 +31,14 @@ header article h1 {
 	letter-spacing: 1.3rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 300;
+	z-index: 10;
 }
 
 header article h2 {
 	font-size: 4rem;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 300;
+	z-index: 10;
 }
 
 #video-background {
@@ -51,17 +53,27 @@ header article h2 {
 	z-index: -100;
 
 	/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
-	background: url(../img/tropical.jpg);
+	background: url(../img/bg/tropical.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 
 }
 
-.btn-enter {
-	border: 5px white solid;
+.btn-enter:link,
+.btn-enter:visited {
+	border: 5px #fff solid;
+	border-radius: 0;
 	font-size: 150%;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	z-index: 5;
+}
+
+.btn-enter:hover,
+.btn-enter:active {
+	color: #ffd700 !important;
+	border: 5px #ffd700 solid !important;
+	border-radius: 0;
 }
 
 .section-header {
@@ -77,7 +89,9 @@ header article h2 {
 }
 
 #proficiencies {
-	background-color: #000;
+	background: url(../img/bg/bg01.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 #javascript {

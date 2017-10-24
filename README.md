@@ -15,13 +15,15 @@ Second iteration of my web developer portfolio.
 
 ### All
 
-- Choose font.
-- Link Waypoints and nav scroll-to-section feature.
+- Add new favicon.
 
 ### Header
 
-- Fix font.
-- Link button to Waypoints scrolling feature.
+- 
+
+### Nav
+
+- Get it to automatically close when a link is clicked, WITHOUT screwing up the scrolling feature.
 
 ### Proficiencies
 
