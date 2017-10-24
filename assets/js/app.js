@@ -1,48 +1,54 @@
 $( document ).ready( function() {
 
-	alert("app.js is linked.");
-
 	// BUTTON CLICK SCROLLING
 
+	// Scroll To Top
 	$( ".scroll-to-top" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#hero" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#home" ).offset().top }, 1000 );
 
 	});
 	
-	// Schedule Now
-	$( ".scroll-to-schedule" ).click( function() {
+	// Proficiencies
+	$( ".scroll-to-proficiencies" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#schedule" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#proficiencies" ).offset().top }, 1000 );
 
 	});
 
-	// About Therapist
-	$( ".scroll-to-about-therapist" ).click( function() {
+	// UI/UX
+	$( ".scroll-to-ui-ux" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#about-therapist" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#ui-ux" ).offset().top }, 1000 );
 
 	});
 
-	// Benefits
-	$( ".scroll-to-benefits" ).click( function() {
+	// JavaScript
+	$( ".scroll-to-javascript" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#benefits" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#javascript" ).offset().top }, 1000 );
 
 	});
 
-	// Testimonials
-	$( ".scroll-to-testimonials" ).click( function() {
+	// Education & Certifications
+	$( ".scroll-to-certifications" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#testimonials" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#certifications" ).offset().top }, 1000 );
 
 	});
 
-	// Services & Rates
-	$( ".scroll-to-rates" ).click( function() {
+	// About
+	$( ".scroll-to-about" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#rates" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#about" ).offset().top }, 1000 );
 
 	});
 
-};
+	// Connect
+	$( ".scroll-to-connect" ).click( function() {
+		
+		$( "html, body" ).animate( { scrollTop: $( "#connect" ).offset().top }, 1000 );
+
+	});
+
+} );
