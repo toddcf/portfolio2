@@ -78,6 +78,9 @@ header article h2 {
 
 .section-header {
 	padding-top: 70px;
+	padding-bottom: 40px;
+	border-bottom: 1px #fff solid;
+
 }
 
 #proficiencies,
@@ -93,6 +96,10 @@ header article h2 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+}
+
+.language-logos {
+	width: 
 }
 
 #javascript {
