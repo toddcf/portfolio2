@@ -25,6 +25,10 @@ header {
 
 }
 
+.btn-enter {
+	border: 5px white solid;
+}
+
 #proficiencies {
 	min-height: 100vh;
 	background-color: #555;
