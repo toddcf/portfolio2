@@ -42,9 +42,12 @@ header {
 	min-height: 100vh;
 }
 
-#proficiencies,
+#proficiencies {
+	background-color: #000;
+}
+
 #javascript {
-	background-color: #555;
+	background-color: #0a290a;
 }
 
 #ui-ux {
@@ -52,15 +55,15 @@ header {
 }
 
 #certifications {
-	background-color: #0a290a;
-}
-
-#about {
 	background-color: #190D01;
 }
 
+#about {
+	background-color: #fff;
+}
+
 #connect {
-	background-color: yellow;
+	background-color: #555;
 	min-height: 50vh;
 }
 
