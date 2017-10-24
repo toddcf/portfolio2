@@ -1,3 +1,7 @@
+* {
+	font-family: 'Lato', sans-serif;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -26,11 +30,13 @@ header article h1 {
 	font-size: 6rem;
 	letter-spacing: 1.3rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
+	font-weight: 300;
 }
 
 header article h2 {
 	font-size: 4rem;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
+	font-weight: 300;
 }
 
 #video-background {
