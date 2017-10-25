@@ -106,6 +106,10 @@ header article h2 {
 	width: 20px;
 }
 
+.portfolio-card-body {
+	min-height: 175px;
+}
+
 #javascript {
 	background-color: #0a290a;
 }
