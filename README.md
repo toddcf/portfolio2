@@ -34,7 +34,10 @@ Second iteration of my web developer portfolio.
 
 - Create flexbox; add card for each project. (Three across on large screens.)
 - Each card:
+  - Same height.
   - Img-fluid at top.
+    - Create same-size images for all cards.
+    - Delete the different-sized images from your assets.
   - Hover image:
     - Animate in from opposite sides:
 	  - GitHub (link -- new tab)

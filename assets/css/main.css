@@ -102,6 +102,10 @@ header article h2 {
 	width: 
 }
 
+.mini-logo {
+	width: 20px;
+}
+
 #javascript {
 	background-color: #0a290a;
 }
