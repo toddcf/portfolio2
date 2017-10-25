@@ -33,24 +33,30 @@ Second iteration of my web developer portfolio.
 
 ### UI/UX Projects
 
-- Background: Gradient that gets darker as you scroll down.
 - Each card:
-  - Same height.
-  - Img-fluid at top.
-    - Create same-size images for all cards.
-    - Delete the different-sized images from your assets.
+  - Waypoints: Fade in each card when scrolled to.
+    - Make all cards invisible before scrolled to.
+    - sm breakpoint: 1 card across:
+      - .fadeInUp when scrolled to.
+      - No delay.
+    - md breakpoint: 2 cards across:
+      - .fadeInUp when scrolled to.
+      - 0.5s delay on second card.
+    - lg breakpoint: 3 cards across:
+      - .fadeInUp when scrolled to.
+      - 0.5s delay on second card.
+      - 1s delay on third card.
+  - Delete the different-sized images from your assets.
   - Hover image:
     - Animate in from opposite sides:
 	  - GitHub (link -- new tab)
 	  - Live Site (link -- new tab)
     - Click effect: Waves
   - Waves effect when clicked.
-  - Title
-  - Description
   - Background Color
   - Technologies Used.
-  - Footer: Technologies Used Logos.
-    - Animate in one by one when scrolled to.
+  - Footer:
+    - Animate logos in one by one when scrolled to.
 
 ### JavaScript & jQuery Projects
 
