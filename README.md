@@ -32,7 +32,7 @@ Second iteration of my web developer portfolio.
 
 ### UI/UX Projects
 
-- Create flexbox; add card for each project. (Three across on large screens.)
+- Background: Gradient that gets darker as you scroll down.
 - Each card:
   - Same height.
   - Img-fluid at top.
