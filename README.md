@@ -23,6 +23,7 @@ Second iteration of my web developer portfolio.
 
 ### Nav
 
+- Make bg white-opaque.
 - Get it to automatically close when a link is clicked, WITHOUT screwing up the scrolling feature.
 
 ### Proficiencies

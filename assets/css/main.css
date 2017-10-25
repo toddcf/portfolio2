@@ -107,8 +107,16 @@ header article h2 {
 	width: 20px;
 }
 
+.portfolio-card {
+	border: 1px solid #000;
+}
+
 .portfolio-card-body {
 	min-height: 175px;
+}
+
+#ui-ux {
+	background: linear-gradient(#fff, #888);
 }
 
 #javascript {
