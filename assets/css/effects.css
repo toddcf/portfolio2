@@ -68,12 +68,12 @@ visibility:visible; /* lt-ie9 */
 #teleportation.animate-1,
 #ny-ad-agency.animate-1,
 #nature-escape.animate-1,
-#wealth-tracker,
-#skywatcher,
-#hangman-de-niro,
-#pirate-treasure,
-#illegal-dice,
-#crystal-skulls,
+#wealth-tracker.animate-1,
+#skywatcher.animate-1,
+#hangman-de-niro.animate-1,
+#pirate-treasure.animate-1,
+#illegal-dice.animate-1,
+#crystal-skulls.animate-1,
 .mini-logo.fadeInRight {
 	opacity: 1;
 }

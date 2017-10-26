@@ -116,6 +116,10 @@ header article h2 {
 	min-height: 185px;
 }
 
+.portfolio-card-body-extended {
+	min-height: 275px;
+}
+
 .portfolio-card-body .card-title {
 	padding-bottom: 15px;
 	border-bottom: 1px solid #000;
