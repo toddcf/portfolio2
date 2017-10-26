@@ -43,9 +43,9 @@ Second iteration of my web developer portfolio.
 
 - Resize all images!
 
-### Education & Certifications
+### Education & Certificates
 
-- Create flexbox; add card for each project. (Three across on large screens.)
+- Style all cards.
 - Certifications:
 	- The Coding Boot Camp at UCLA Extension
 		-Instructors: Link to Omar's and Michael's LinkedIn profiles.
@@ -63,8 +63,6 @@ Second iteration of my web developer portfolio.
   - Click image:
     - Waves effect.
     - Lightbox: Full size image of certificate.
-  - Title
-  - Description
 
 ### About
 

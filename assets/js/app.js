@@ -71,6 +71,7 @@ $( document ).ready( function() {
 		$( "#author-site .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
 		$( "#author-site .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
 		$( "#author-site .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+		$( "#author-site .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
 	}, {
 		offset: "50%"
 	});

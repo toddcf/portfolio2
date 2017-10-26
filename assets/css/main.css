@@ -108,7 +108,8 @@ header article h2 {
 	width: 20px;
 }
 
-.portfolio-card {
+.portfolio-card,
+.certificate-card {
 	border: 1px solid #000;
 }
 
