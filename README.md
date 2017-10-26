@@ -45,6 +45,7 @@ Second iteration of my web developer portfolio.
 
 ### Education & Certificates
 
+- Maybe use an accordion for all card details.
 - Style all cards.
 - Certifications:
 	- The Coding Boot Camp at UCLA Extension
