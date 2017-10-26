@@ -19,11 +19,21 @@
 }
 
 .animate-delay-a {
+	-webkit-animation-delay: 0.75s; /* Safari 4.0 - 8.0 */
+	animation-delay: 0.75s;
+}
+
+.animate-delay-b {
 	-webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
 	animation-delay: 1s;
 }
 
-.animate-delay-b {
+.animate-delay-c {
+	-webkit-animation-delay: 1.25s; /* Safari 4.0 - 8.0 */
+	animation-delay: 1.25s;
+}
+
+.animate-delay-d {
 	-webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
 	animation-delay: 1.5s;
 }
