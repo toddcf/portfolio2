@@ -19,7 +19,7 @@ Second iteration of my web developer portfolio.
 
 ### Header
 
-- 
+- Try using rows and columns to fix the iPhone issue.
 
 ### Nav
 
