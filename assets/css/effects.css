@@ -51,6 +51,8 @@ visibility:visible; /* lt-ie9 */
 #skywatcher,
 #hangman-de-niro,
 #pirate-treasure,
+#illegal-dice,
+#crystal-skulls,
 .mini-logo {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
@@ -70,6 +72,8 @@ visibility:visible; /* lt-ie9 */
 #skywatcher,
 #hangman-de-niro,
 #pirate-treasure,
+#illegal-dice,
+#crystal-skulls,
 .mini-logo.fadeInRight {
 	opacity: 1;
 }

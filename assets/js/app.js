@@ -194,5 +194,28 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// Illegal Dice Game
+	$( "#illegal-dice" ).waypoint( function( direction ) {
+		$( "#illegal-dice" ).addClass( "animate-1 fadeInUp" );
+		$( "#illegal-dice .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#illegal-dice .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#illegal-dice .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#illegal-dice .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+		$( "#illegal-dice .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
+	}, {
+		offset: "50%"
+	});
+
+	// Collector of the Crystal Skulls
+	$( "#crystal-skulls" ).waypoint( function( direction ) {
+		$( "#crystal-skulls" ).addClass( "animate-1 fadeInUp" );
+		$( "#crystal-skulls .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#crystal-skulls .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#crystal-skulls .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#crystal-skulls .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	}, {
+		offset: "50%"
+	});
+
 
 } );
