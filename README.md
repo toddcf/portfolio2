@@ -48,15 +48,16 @@ Second iteration of my web developer portfolio.
       - 1s delay on third card.
   - Delete the different-sized images from your assets.
   - Hover image:
-    - Animate in from opposite sides:
-	  - GitHub (link -- new tab)
-	  - Live Site (link -- new tab)
+    - Text:
+      - NOT opaque.
+      - Hover:
+        - Full white.
+        - Border-bottom appears.
     - Click effect: Waves
-  - Waves effect when clicked.
   - Background Color
-  - Technologies Used.
   - Footer:
     - Animate logos in one by one when scrolled to.
+    - Make all logos the same size.
 
 ### JavaScript & jQuery Projects
 
