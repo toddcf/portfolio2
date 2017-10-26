@@ -15,7 +15,7 @@ top:0;
 left:0;
 text-align:center;
 color:#fff;
-background: #444;
+background: rgba(0,0,0,0.5);
 visibility:hidden; /* lt-ie9 */
 }
 
@@ -28,12 +28,14 @@ transition:all 0.6s ease;
 
 overflow: hidden;
 
-opacity:0;
+background: rgba(0,0,0,0);
+
 }
 .b-link-fade:hover .b-wrapper, .b-link-fade:hover .b-top-line{
 
-opacity:0.8;
+background: rgba(0,0,0,0.8);
 visibility:visible; /* lt-ie9 */
+
 }
 
 .animate-8 {
@@ -47,23 +49,23 @@ visibility:visible; /* lt-ie9 */
 }
 
 .animate-delay-a {
+	-webkit-animation-delay: 0.5s; /* Safari 4.0 - 8.0 */
+	animation-delay: 0.5s;
+}
+
+.animate-delay-b {
 	-webkit-animation-delay: 0.75s; /* Safari 4.0 - 8.0 */
 	animation-delay: 0.75s;
 }
 
-.animate-delay-b {
+.animate-delay-c {
 	-webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
 	animation-delay: 1s;
 }
 
-.animate-delay-c {
+.animate-delay-d {
 	-webkit-animation-delay: 1.25s; /* Safari 4.0 - 8.0 */
 	animation-delay: 1.25s;
-}
-
-.animate-delay-d {
-	-webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
-	animation-delay: 1.5s;
 }
 
 @keyframes fadeIn {
@@ -271,10 +273,10 @@ transition-delay:0.3s !important;
 .portfolio-overlay a:link,
 .portfolio-overlay a:visited {
 	text-decoration: none;
-	color: rgba(225, 225, 225, 1);
+	color: #e1e1e1;
 }
 
 .portfolio-overlay a:hover,
 .portfolio-overlay a:active {
-	color: rgba(255, 255, 255, 1);
+	color: #fff;
 }
