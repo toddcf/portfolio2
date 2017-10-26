@@ -34,18 +34,6 @@ Second iteration of my web developer portfolio.
 ### UI/UX Projects
 
 - Each card:
-  - Waypoints: Fade in each card when scrolled to.
-    - Make all cards invisible before scrolled to.
-    - sm breakpoint: 1 card across:
-      - Add class for .fadeInUp when scrolled to.
-      - No delay.
-    - md breakpoint: 2 cards across:
-      - Add class for .fadeInUp when scrolled to.
-      - Add class for 0.5s delay on second card.
-    - lg breakpoint: 3 cards across:
-      - .fadeInUp when scrolled to.
-      - 0.5s delay on second card.
-      - 1s delay on third card.
   - Delete the different-sized images from your assets.
   - Footer:
     - Animate logos in one by one WHEN SCROLLED TO.
@@ -58,6 +46,14 @@ Second iteration of my web developer portfolio.
 ### Education & Certifications
 
 - Create flexbox; add card for each project. (Three across on large screens.)
+- Certifications:
+	- The Coding Boot Camp at UCLA Extension
+	- Udemy: HTML5/CSS3 (Jonas)
+	- Udemy: JavaScript (Jonas)
+	- Udemy: Bootstrap 4 Beta (Brad Traversy)
+	- Udemy: SEO Basics
+	- Udemy: OpenWeatherMap API
+	- Udemy: Wireframing
 - Each card:
   - Img-fluid of the certificate at top.
   - Hover image:
@@ -73,6 +69,10 @@ Second iteration of my web developer portfolio.
 
 - My image in one column.
 - Bio text in the other column.
+	- Use JS date object to calculate how long I've been coding, and pass it into a span.
+		- If under two years: "almost two" years.
+		- If over two years: "over X" years.
+			- Spell out the numbers until double digits are reached. Then just pass in the numerals.
 
 ### Connect
 
@@ -84,3 +84,17 @@ Second iteration of my web developer portfolio.
 ### Footer
 
 - Copyright
+
+## Future Iterations
+
+- Have each mobile-responsive row of cards fadeUp one after the other when scrolled to:
+	- sm breakpoint: 1 card across:
+	  - Add class for .fadeInUp when scrolled to.
+	  - No delay.
+	- md breakpoint: 2 cards across:
+	  - Add class for .fadeInUp when scrolled to.
+	  - Add class for 0.5s delay on second card.
+	- lg breakpoint: 3 cards across:
+	  - .fadeInUp when scrolled to.
+	  - 0.5s delay on second card.
+	  - 1s delay on third card.
