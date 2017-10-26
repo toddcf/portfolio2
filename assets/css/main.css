@@ -9,7 +9,7 @@ body {
 }
 
 header {
-	min-height: 100vh;
+	min-height: 100vh; /* NOTE: This is not keeping the button inside the header when in iPhone 7 landscape mode. */
 }
 
 header article {
@@ -46,13 +46,16 @@ header article h2 {
 	position: fixed;
 	right: 0; 
 	bottom: 0;
-	min-width: 100%; 
+	/*min-width: 100%; */
 	min-height: 100vh;
-	width: auto; 
-	height: auto;
+	/*width: auto;*/
+	/*height: auto;*/
+	width: 100%;
+	height: 100%;
 	z-index: -100;
 
 	/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
+	/* VIDEO PLAYS ON COMPUTER, BUT NOT ON IPHONE. SHOWS STILL IMG INSTEAD. */
 	background: url(../img/bg/tropical.jpg);
 	background-attachment: fixed;
 	background-size: cover;
