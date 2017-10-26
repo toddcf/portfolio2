@@ -51,4 +51,71 @@ $( document ).ready( function() {
 
 	});
 
+	// ANIMATIONS ON SCROLL
+
+	// .card-a:
+	$( ".card-a" ).waypoint( function( direction ) {
+		$( ".card-a" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+	// We actually aren't using "direction" in this case, because this animation will only happen once.
+
+	// .card-b:
+	$( ".card-b" ).waypoint( function( direction ) {
+		$( ".card-b" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-c:
+	$( ".card-c" ).waypoint( function( direction ) {
+		$( ".card-c" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-d:
+	$( ".card-d" ).waypoint( function( direction ) {
+		$( ".card-d" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-e:
+	$( ".card-e" ).waypoint( function( direction ) {
+		$( ".card-e" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-f:
+	$( ".card-f" ).waypoint( function( direction ) {
+		$( ".card-f" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-g:
+	$( ".card-g" ).waypoint( function( direction ) {
+		$( ".card-g" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-h:
+	$( ".card-h" ).waypoint( function( direction ) {
+		$( ".card-h" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// .card-i:
+	$( ".card-i" ).waypoint( function( direction ) {
+		$( ".card-i" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+
 } );

@@ -37,26 +37,18 @@ Second iteration of my web developer portfolio.
   - Waypoints: Fade in each card when scrolled to.
     - Make all cards invisible before scrolled to.
     - sm breakpoint: 1 card across:
-      - .fadeInUp when scrolled to.
+      - Add class for .fadeInUp when scrolled to.
       - No delay.
     - md breakpoint: 2 cards across:
-      - .fadeInUp when scrolled to.
-      - 0.5s delay on second card.
+      - Add class for .fadeInUp when scrolled to.
+      - Add class for 0.5s delay on second card.
     - lg breakpoint: 3 cards across:
       - .fadeInUp when scrolled to.
       - 0.5s delay on second card.
       - 1s delay on third card.
   - Delete the different-sized images from your assets.
-  - Hover image:
-    - Text:
-      - NOT opaque.
-      - Hover:
-        - Full white.
-        - Border-bottom appears.
-    - Click effect: Waves
-  - Background Color
   - Footer:
-    - Animate logos in one by one when scrolled to.
+    - Animate logos in one by one WHEN SCROLLED TO.
     - Make all logos the same size.
 
 ### JavaScript & jQuery Projects
