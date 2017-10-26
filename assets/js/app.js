@@ -56,6 +56,9 @@ $( document ).ready( function() {
 	// .card-a:
 	$( ".card-a" ).waypoint( function( direction ) {
 		$( ".card-a" ).addClass( "animate-1 fadeInUp" );
+		$( ".card-a .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( ".card-a .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( ".card-a .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
 	}, {
 		offset: "50%"
 	});
@@ -64,6 +67,10 @@ $( document ).ready( function() {
 	// .card-b:
 	$( ".card-b" ).waypoint( function( direction ) {
 		$( ".card-b" ).addClass( "animate-1 fadeInUp" );
+		$( ".card-a .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( ".card-a .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( ".card-a .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( ".card-a .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
 		offset: "50%"
 	});

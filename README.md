@@ -48,6 +48,7 @@ Second iteration of my web developer portfolio.
 - Create flexbox; add card for each project. (Three across on large screens.)
 - Certifications:
 	- The Coding Boot Camp at UCLA Extension
+		-Instructors: Link to Omar's and Michael's LinkedIn profiles.
 	- Udemy: HTML5/CSS3 (Jonas)
 	- Udemy: JavaScript (Jonas)
 	- Udemy: Bootstrap 4 Beta (Brad Traversy)
@@ -57,7 +58,7 @@ Second iteration of my web developer portfolio.
 - Each card:
   - Img-fluid of the certificate at top.
   - Hover image:
-    - MD Bootstrap effect.
+    - MD Bootstrap zoom effect.
     - Cursor: Pointer
   - Click image:
     - Waves effect.
@@ -67,8 +68,9 @@ Second iteration of my web developer portfolio.
 
 ### About
 
-- My image in one column.
-- Bio text in the other column.
+- My image in a col-4.
+	- fadeInLeft on scroll.
+- Bio text in a col-8.
 	- Use JS date object to calculate how long I've been coding, and pass it into a span.
 		- If under two years: "almost two" years.
 		- If over two years: "over X" years.

@@ -46,7 +46,8 @@ visibility:visible; /* lt-ie9 */
 .card-f,
 .card-g,
 .card-h,
-.card-i {
+.card-i,
+.mini-logo {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
 	        animation-duration: 1s;*/
@@ -60,7 +61,8 @@ visibility:visible; /* lt-ie9 */
 .card-f.animate-1,
 .card-g.animate-1,
 .card-h.animate-1,
-.card-i.animate-1 {
+.card-i.animate-1,
+.mini-logo.fadeInRight {
 	opacity: 1;
 }
 
