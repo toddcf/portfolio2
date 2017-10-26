@@ -53,97 +53,97 @@ $( document ).ready( function() {
 
 	// ANIMATIONS ON SCROLL
 
-	// .card-a:
-	$( ".card-a" ).waypoint( function( direction ) {
-		$( ".card-a" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-a .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-a .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-a .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	// Omnifood
+	$( "#omnifood" ).waypoint( function( direction ) {
+		$( "#omnifood" ).addClass( "animate-1 fadeInUp" );
+		$( "#omnifood .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#omnifood .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#omnifood .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
 	}, {
 		offset: "50%"
 	});
 	// We actually aren't using "direction" in this case, because this animation will only happen once.
 
-	// .card-b:
-	$( ".card-b" ).waypoint( function( direction ) {
-		$( ".card-b" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-b .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-b .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-b .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( ".card-b .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	// Author Site
+	$( "#author-site" ).waypoint( function( direction ) {
+		$( "#author-site" ).addClass( "animate-1 fadeInUp" );
+		$( "#author-site .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#author-site .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#author-site .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#author-site .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-c:
-	$( ".card-c" ).waypoint( function( direction ) {
-		$( ".card-c" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-c .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-c .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-c .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( ".card-c .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	// Piel Canela
+	$( "#piel-canela" ).waypoint( function( direction ) {
+		$( "#piel-canela" ).addClass( "animate-1 fadeInUp" );
+		$( "#piel-canela .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#piel-canela .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#piel-canela .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#piel-canela .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-d:
-	$( ".card-d" ).waypoint( function( direction ) {
-		$( ".card-d" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-d .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-d .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+	// Image Gallery
+	$( "#image-gallery" ).waypoint( function( direction ) {
+		$( "#image-gallery" ).addClass( "animate-1 fadeInUp" );
+		$( "#image-gallery .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#image-gallery .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-e:
-	$( ".card-e" ).waypoint( function( direction ) {
-		$( ".card-e" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-e .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-e .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-e .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( ".card-e .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	// Transport Image Gallery
+	$( "#transport" ).waypoint( function( direction ) {
+		$( "#transport" ).addClass( "animate-1 fadeInUp" );
+		$( "#transport .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#transport .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#transport .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#transport .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-f:
-	$( ".card-f" ).waypoint( function( direction ) {
-		$( ".card-f" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-f .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-f .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-f .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( ".card-f .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	// Purrfect Match
+	$( "#purrfect" ).waypoint( function( direction ) {
+		$( "#purrfect" ).addClass( "animate-1 fadeInUp" );
+		$( "#purrfect .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#purrfect .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#purrfect .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#purrfect .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-g:
-	$( ".card-g" ).waypoint( function( direction ) {
-		$( ".card-g" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-g .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-g .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-g .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	// Teleportation Vacation
+	$( "#teleportation" ).waypoint( function( direction ) {
+		$( "#teleportation" ).addClass( "animate-1 fadeInUp" );
+		$( "#teleportation .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#teleportation .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#teleportation .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-h:
-	$( ".card-h" ).waypoint( function( direction ) {
-		$( ".card-h" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-h .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-h .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-h .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( ".card-h .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	// New York Advertising Agency
+	$( "#ny-ad-agency" ).waypoint( function( direction ) {
+		$( "#ny-ad-agency" ).addClass( "animate-1 fadeInUp" );
+		$( "#ny-ad-agency .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#ny-ad-agency .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#ny-ad-agency .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#ny-ad-agency .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
 		offset: "50%"
 	});
 
-	// .card-i:
-	$( ".card-i" ).waypoint( function( direction ) {
-		$( ".card-i" ).addClass( "animate-1 fadeInUp" );
-		$( ".card-i .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( ".card-i .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( ".card-i .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	// Nature Escape
+	$( "#nature-escape" ).waypoint( function( direction ) {
+		$( "#nature-escape" ).addClass( "animate-1 fadeInUp" );
+		$( "#nature-escape .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#nature-escape .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#nature-escape .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
 	}, {
 		offset: "50%"
 	});

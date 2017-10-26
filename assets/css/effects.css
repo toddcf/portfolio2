@@ -38,30 +38,30 @@ visibility:visible; /* lt-ie9 */
 
 }
 
-.card-a,
-.card-b,
-.card-c,
-.card-d,
-.card-e,
-.card-f,
-.card-g,
-.card-h,
-.card-i,
+#omnifood,
+#author-site,
+#piel-canela,
+#image-gallery,
+#transport,
+#purrfect,
+#teleportation,
+#ny-ad-agency,
+#nature-escape,
 .mini-logo {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
 	        animation-duration: 1s;*/
 }
 
-.card-a.animate-1,
-.card-b.animate-1,
-.card-c.animate-1,
-.card-d.animate-1,
-.card-e.animate-1,
-.card-f.animate-1,
-.card-g.animate-1,
-.card-h.animate-1,
-.card-i.animate-1,
+#omnifood.animate-1,
+#author-site.animate-1,
+#piel-canela.animate-1,
+#image-gallery.animate-1,
+#transport.animate-1,
+#purrfect.animate-1,
+#teleportation.animate-1,
+#ny-ad-agency.animate-1,
+#nature-escape.animate-1,
 .mini-logo.fadeInRight {
 	opacity: 1;
 }
