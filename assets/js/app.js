@@ -158,5 +158,29 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// Skywatcher Weather API
+	$( "#skywatcher" ).waypoint( function( direction ) {
+		$( "#skywatcher" ).addClass( "animate-1 fadeInUp" );
+		$( "#skywatcher .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#skywatcher .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#skywatcher .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#skywatcher .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+		$( "#skywatcher .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
+		$( "#skywatcher .mini-logo-f").addClass( "animate-0-75 animate-delay-f fadeInRight");
+	}, {
+		offset: "50%"
+	});
+
+	// Hangman - Robert De Niro Edition
+	$( "#hangman-de-niro" ).waypoint( function( direction ) {
+		$( "#hangman-de-niro" ).addClass( "animate-1 fadeInUp" );
+		$( "#hangman-de-niro .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#hangman-de-niro .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#hangman-de-niro .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#hangman-de-niro .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	}, {
+		offset: "50%"
+	});
+
 
 } );

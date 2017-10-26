@@ -48,6 +48,8 @@ visibility:visible; /* lt-ie9 */
 #ny-ad-agency,
 #nature-escape,
 #wealth-tracker,
+#skywatcher,
+#hangman-de-niro,
 .mini-logo {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
@@ -64,6 +66,8 @@ visibility:visible; /* lt-ie9 */
 #ny-ad-agency.animate-1,
 #nature-escape.animate-1,
 #wealth-tracker,
+#skywatcher,
+#hangman-de-niro,
 .mini-logo.fadeInRight {
 	opacity: 1;
 }
@@ -100,6 +104,16 @@ visibility:visible; /* lt-ie9 */
 .animate-delay-d {
 	-webkit-animation-delay: 1.25s; /* Safari 4.0 - 8.0 */
 	animation-delay: 1.25s;
+}
+
+.animate-delay-e {
+	-webkit-animation-delay: 1.5s; /* Safari 4.0 - 8.0 */
+	animation-delay: 1.5s;
+}
+
+.animate-delay-f {
+	-webkit-animation-delay: 1.75s; /* Safari 4.0 - 8.0 */
+	animation-delay: 1.75s;
 }
 
 @keyframes fadeIn {
