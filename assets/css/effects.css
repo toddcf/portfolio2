@@ -50,6 +50,7 @@ visibility:visible; /* lt-ie9 */
 #wealth-tracker,
 #skywatcher,
 #hangman-de-niro,
+#pirate-treasure,
 .mini-logo {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
@@ -68,6 +69,7 @@ visibility:visible; /* lt-ie9 */
 #wealth-tracker,
 #skywatcher,
 #hangman-de-niro,
+#pirate-treasure,
 .mini-logo.fadeInRight {
 	opacity: 1;
 }
