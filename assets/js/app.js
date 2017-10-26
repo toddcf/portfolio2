@@ -148,5 +148,15 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// Wealth Tracker
+	$( "#wealth-tracker" ).waypoint( function( direction ) {
+		$( "#wealth-tracker" ).addClass( "animate-1 fadeInUp" );
+		$( "#wealth-tracker .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#wealth-tracker .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#wealth-tracker .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	}, {
+		offset: "50%"
+	});
+
 
 } );

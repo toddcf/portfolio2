@@ -41,7 +41,7 @@ Second iteration of my web developer portfolio.
 
 ### JavaScript & jQuery Projects
 
-- Same layout as UI/UX Projects.
+- Resize all images!
 
 ### Education & Certifications
 
@@ -86,6 +86,10 @@ Second iteration of my web developer portfolio.
 ### Footer
 
 - Copyright
+
+## Final Cleanup
+
+- Add Google Analytics, but only right before deployment. (Don't want to screw things up with the gh-pages version.)
 
 ## Future Iterations
 
