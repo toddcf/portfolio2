@@ -30,10 +30,10 @@ $( document ).ready( function() {
 
 	});
 
-	// Education & Certifications
-	$( ".scroll-to-certifications" ).click( function() {
+	// Education & Certificates
+	$( ".scroll-to-certificates" ).click( function() {
 		
-		$( "html, body" ).animate( { scrollTop: $( "#certifications" ).offset().top }, 1000 );
+		$( "html, body" ).animate( { scrollTop: $( "#certificates" ).offset().top }, 1000 );
 
 	});
 

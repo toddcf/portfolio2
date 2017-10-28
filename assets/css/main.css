@@ -80,14 +80,14 @@ header article h2 {
 .section-header {
 	padding-top: 70px;
 	padding-bottom: 40px;
-	border-bottom: 1px #fff solid;
+	/*border-bottom: 1px #fff solid;*/
 
 }
 
 #proficiencies,
 #ui-ux,
 #javascript,
-#certifications,
+#certificates,
 #about {
 	min-height: 100vh;
 }
