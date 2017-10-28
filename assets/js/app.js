@@ -267,4 +267,17 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// DATE
+	var thisYear = new Date().getFullYear();
+
+	// CODING DURATION
+
+	// FOOTER
+
+	// Pass current year into footer copyright:
+	// Footer (IIFE):
+	var footerInfo = ( function() {
+		$( ".currentYear" ).html( "&ndash;&nbsp;" + thisYear + "&nbsp;" );
+	}) ();
+
 } );
