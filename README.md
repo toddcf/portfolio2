@@ -34,6 +34,8 @@ Second iteration of my web developer portfolio.
 
 ### UI/UX Projects
 
+- Style the associated modal.
+- Resize the My Portfolio image.
 - Each card:
   - Delete the different-sized images from your assets.
   - Footer:

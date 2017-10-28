@@ -113,6 +113,18 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// My Portfolio
+	$( "#my-portfolio" ).waypoint( function( direction ) {
+		$( "#my-portfolio" ).addClass( "animate-1 fadeInUp" );
+		$( "#my-portfolio .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#my-portfolio .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#my-portfolio .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#my-portfolio .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
+		$( "#my-portfolio .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
+	}, {
+		offset: "50%"
+	});
+
 	// Image Gallery
 	$( "#image-gallery" ).waypoint( function( direction ) {
 		$( "#image-gallery" ).addClass( "animate-1 fadeInUp" );
