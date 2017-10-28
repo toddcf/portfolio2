@@ -29,6 +29,7 @@ Second iteration of my web developer portfolio.
 ### Proficiencies
 
 - Make all logos the same size.
+- On smaller screen sizes, reduce the max size of each logo.
 - Add effect where each logo animates into view when scrolled to.
 
 ### UI/UX Projects
@@ -60,8 +61,9 @@ Second iteration of my web developer portfolio.
 	- fadeInLeft on scroll.
 - Bio text in a col-8.
 	- Use JS date object to calculate how long I've been coding, and pass it into a span.
+		- Get current date. Subtract May 1, 2016 from current date. Store that result in a variable.
 		- If under two years: "almost two" years.
-		- If over two years: "over X" years.
+		- If equal to or greater than two years: "over X" years.
 			- Spell out the numbers until double digits are reached. Then just pass in the numerals.
 
 ### Connect
@@ -74,7 +76,7 @@ Second iteration of my web developer portfolio.
 
 ### Footer
 
-- Copyright
+- Copyright (with JavaScript date).
 
 ## Mobile Responsiveness
 
