@@ -108,9 +108,14 @@ header article h2 {
 	width: 20px;
 }
 
-.portfolio-card,
-.certificate-card {
+.portfolio-card-ui-ux {
 	border: 1px solid #000;
+}
+
+.portfolio-card-js,
+.certificate-card {
+	/*border: 1px solid #fff;*/
+	border: none;
 }
 
 .portfolio-card-body {
@@ -124,10 +129,6 @@ header article h2 {
 .portfolio-card-body .card-title {
 	padding-bottom: 15px;
 	border-bottom: 1px solid #000;
-}
-
-.certificate-card {
-	/*min-height: 350px;*/
 }
 
 .certificate-card .card-title {
