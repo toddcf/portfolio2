@@ -218,5 +218,53 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// The Coding Boot Camp at UCLA Extension
+	$( "#ucla-boot-camp" ).waypoint( function( direction ) {
+		$( "#ucla-boot-camp" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// HTML5 / CSS3
+	$( "#jonas-html5-css3" ).waypoint( function( direction ) {
+		$( "#jonas-html5-css3" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// Bootstrap 4 Beta
+	$( "#bs4b" ).waypoint( function( direction ) {
+		$( "#bs4b" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// The Complete JavaScript Course
+	$( "#jonas-js" ).waypoint( function( direction ) {
+		$( "#jonas-js" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// Open Weather Map API
+	$( "#weather-api" ).waypoint( function( direction ) {
+		$( "#weather-api" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// SEO Basics
+	$( "#seo-basics" ).waypoint( function( direction ) {
+		$( "#seo-basics" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
+
+	// Wireframing and Prototyping
+	$( "#udemy-wireframing" ).waypoint( function( direction ) {
+		$( "#udemy-wireframing" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "50%"
+	});
 
 } );
