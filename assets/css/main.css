@@ -126,7 +126,15 @@ header article h2 {
 	border-bottom: 1px solid #000;
 }
 
-.btn-certifications {
+.certificate-card {
+	/*min-height: 350px;*/
+}
+
+.certificate-card .card-title {
+	margin-bottom: 0;
+}
+
+.btn-certificates {
 	background-color: #555;
 	color: #fff;
 }
@@ -143,7 +151,7 @@ header article h2 {
 	background-color: #fff;
 }
 
-#certifications {
+#certificates {
 	background-color: #190D01;
 }
 

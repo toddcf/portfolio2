@@ -41,29 +41,18 @@ Second iteration of my web developer portfolio.
 
 ### JavaScript & jQuery Projects
 
-- Resize all images!
+- Style and standardize all cards.
 
 ### Education & Certificates
 
-- Maybe use an accordion for all card details.
-- Style all cards.
-- Certifications:
-	- The Coding Boot Camp at UCLA Extension
-		-Instructors: Link to Omar's and Michael's LinkedIn profiles.
-	- Udemy: HTML5/CSS3 (Jonas)
-	- Udemy: JavaScript (Jonas)
-	- Udemy: Bootstrap 4 Beta (Brad Traversy)
-	- Udemy: SEO Basics
-	- Udemy: OpenWeatherMap API
-	- Udemy: Wireframing
-- Each card:
-  - Img-fluid of the certificate at top.
-  - Hover image:
-    - MD Bootstrap zoom effect.
-    - Cursor: Pointer
-  - Click image:
-    - Waves effect.
-    - Lightbox: Full size image of certificate.
+- Style and standardize all cards.
+	- Images:
+		- Hover: MD Bootstrap zoom effect.
+		- Make UCLA jpg the same size as the Udemy images.
+	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
+	- Buttons:
+		- Choose color.
+		- Add waves effect when clicked.
 
 ### About
 
@@ -77,14 +66,17 @@ Second iteration of my web developer portfolio.
 
 ### Connect
 
-- GitHub (new tab)
-- LinkedIn (new tab)
-- Résumé (PDF, new tab)
-- Phone & Email (see résumé)
+- Rocket picture
+- GitHub icon (link opens new tab)
+- LinkedIn icon (link opens new tab)
+- Résumé icon (link opens new tab of PDF)
+- Phone & Email icon (see résumé)
 
 ### Footer
 
 - Copyright
+
+## Mobile Responsiveness
 
 ## Final Cleanup
 
