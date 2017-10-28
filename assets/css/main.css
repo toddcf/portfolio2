@@ -126,6 +126,11 @@ header article h2 {
 	border-bottom: 1px solid #000;
 }
 
+.btn-certifications {
+	background-color: #555;
+	color: #fff;
+}
+
 #ui-ux {
 	background: linear-gradient(#fff, #888);
 }
