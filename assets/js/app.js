@@ -1,5 +1,31 @@
 $( document ).ready( function() {
 
+	// CODING DURATION IIFE
+	var duration = ( function() {
+
+		var todayDate = new Date();
+		var startDate = new Date( 2016, 04, 04 ); /* May 4, 2016 (Jan is 0) */
+
+		var estimatedDiff = Math.floor( ( todayDate - startDate ) / 31556900000 );
+		console.log(estimatedDiff);
+
+		if ( estimatedDiff < 2 ) {
+			$( ".coding-duration" ).html( "almost 2" );
+		}
+		else {
+			$( ".coding-duration" ).html( "over " + estimatedDiff );
+		}
+
+	}) ();
+
+	// FOOTER
+	var thisYear = new Date().getFullYear();
+	// Pass thisYear into footer copyright's .currentYear span:
+	// Footer (IIFE):
+	var footerInfo = ( function() {
+		$( ".currentYear" ).html( "&ndash;&nbsp;" + thisYear + "&nbsp;" );
+	}) ();
+
 	// BUTTON CLICK SCROLLING
 
 	// Scroll To Top
@@ -266,18 +292,5 @@ $( document ).ready( function() {
 	}, {
 		offset: "50%"
 	});
-
-	// DATE
-	var thisYear = new Date().getFullYear();
-
-	// CODING DURATION
-
-	// FOOTER
-
-	// Pass current year into footer copyright:
-	// Footer (IIFE):
-	var footerInfo = ( function() {
-		$( ".currentYear" ).html( "&ndash;&nbsp;" + thisYear + "&nbsp;" );
-	}) ();
 
 } );
