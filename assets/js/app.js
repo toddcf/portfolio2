@@ -240,132 +240,164 @@ $( document ).ready( function() {
 	// Wealth Tracker
 	$( "#wealth-tracker" ).waypoint( function( direction ) {
 		$( "#wealth-tracker" ).addClass( "animate-1 fadeInUp" );
-		$( "#wealth-tracker .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( "#wealth-tracker .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( "#wealth-tracker .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
 	}, {
-		offset: "50%"
+		offset: "85%"
+	});
+
+	$( "#wealth-tracker .mini-logo" ).waypoint( function( direction ) {
+		$( "#wealth-tracker .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#wealth-tracker .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#wealth-tracker .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+	}, {
+		offset: "95%"
 	});
 
 	// Skywatcher Weather API
 	$( "#skywatcher" ).waypoint( function( direction ) {
 		$( "#skywatcher" ).addClass( "animate-1 fadeInUp" );
-		$( "#skywatcher .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( "#skywatcher .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( "#skywatcher .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( "#skywatcher .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
-		$( "#skywatcher .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
-		$( "#skywatcher .mini-logo-f").addClass( "animate-0-75 animate-delay-f fadeInRight");
 	}, {
-		offset: "50%"
+		offset: "85%"
+	});
+
+	$( "#skywatcher .mini-logo" ).waypoint( function( direction ) {
+		$( "#skywatcher .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#skywatcher .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#skywatcher .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#skywatcher .mini-logo-d").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#skywatcher .mini-logo-e").addClass( "animate-0-75 animate-delay-d fadeInRight");
+		$( "#skywatcher .mini-logo-f").addClass( "animate-0-75 animate-delay-e fadeInRight");
+	}, {
+		offset: "95%"
 	});
 
 	// Hangman - Robert De Niro Edition
 	$( "#hangman-de-niro" ).waypoint( function( direction ) {
 		$( "#hangman-de-niro" ).addClass( "animate-1 fadeInUp" );
-		$( "#hangman-de-niro .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( "#hangman-de-niro .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( "#hangman-de-niro .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( "#hangman-de-niro .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
-		offset: "50%"
+		offset: "85%"
+	});
+
+	$( "#hangman-de-niro .mini-logo" ).waypoint( function( direction ) {
+		$( "#hangman-de-niro .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#hangman-de-niro .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#hangman-de-niro .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#hangman-de-niro .mini-logo-d").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	}, {
+		offset: "95%"
 	});
 
 	// Pirate Treasure
 	$( "#pirate-treasure" ).waypoint( function( direction ) {
 		$( "#pirate-treasure" ).addClass( "animate-1 fadeInUp" );
-		$( "#pirate-treasure .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( "#pirate-treasure .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( "#pirate-treasure .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( "#pirate-treasure .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
-		$( "#pirate-treasure .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
 	}, {
-		offset: "50%"
+		offset: "85%"
+	});
+
+	$( "#pirate-treasure .mini-logo" ).waypoint( function( direction ) {
+		$( "#pirate-treasure" ).addClass( "animate-1 fadeInUp" );
+		$( "#pirate-treasure .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#pirate-treasure .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#pirate-treasure .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#pirate-treasure .mini-logo-d").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#pirate-treasure .mini-logo-e").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	}, {
+		offset: "95%"
 	});
 
 	// Illegal Dice Game
 	$( "#illegal-dice" ).waypoint( function( direction ) {
 		$( "#illegal-dice" ).addClass( "animate-1 fadeInUp" );
-		$( "#illegal-dice .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( "#illegal-dice .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( "#illegal-dice .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( "#illegal-dice .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
-		$( "#illegal-dice .mini-logo-e").addClass( "animate-0-75 animate-delay-e fadeInRight");
 	}, {
-		offset: "50%"
+		offset: "85%"
+	});
+
+	$( "#illegal-dice .mini-logo" ).waypoint( function( direction ) {
+		$( "#illegal-dice" ).addClass( "animate-1 fadeInUp" );
+		$( "#illegal-dice .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#illegal-dice .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#illegal-dice .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#illegal-dice .mini-logo-d").addClass( "animate-0-75 animate-delay-c fadeInRight");
+		$( "#illegal-dice .mini-logo-e").addClass( "animate-0-75 animate-delay-d fadeInRight");
+	}, {
+		offset: "95%"
 	});
 
 	// Collector of the Crystal Skulls
 	$( "#crystal-skulls" ).waypoint( function( direction ) {
 		$( "#crystal-skulls" ).addClass( "animate-1 fadeInUp" );
-		$( "#crystal-skulls .mini-logo-a").addClass( "animate-0-75 animate-delay-a fadeInRight");
-		$( "#crystal-skulls .mini-logo-b").addClass( "animate-0-75 animate-delay-b fadeInRight");
-		$( "#crystal-skulls .mini-logo-c").addClass( "animate-0-75 animate-delay-c fadeInRight");
-		$( "#crystal-skulls .mini-logo-d").addClass( "animate-0-75 animate-delay-d fadeInRight");
 	}, {
-		offset: "50%"
+		offset: "85%"
+	});
+
+	$( "#crystal-skulls .mini-logo" ).waypoint( function( direction ) {
+		$( "#crystal-skulls .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#crystal-skulls .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#crystal-skulls .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#crystal-skulls .mini-logo-d").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	}, {
+		offset: "95%"
 	});
 
 	// The Coding Boot Camp at UCLA Extension
 	$( "#ucla-boot-camp" ).waypoint( function( direction ) {
 		$( "#ucla-boot-camp" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// HTML5 / CSS3
 	$( "#jonas-html5-css3" ).waypoint( function( direction ) {
 		$( "#jonas-html5-css3" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// Bootstrap 4 Beta
 	$( "#bs4b" ).waypoint( function( direction ) {
 		$( "#bs4b" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// The Complete JavaScript Course
 	$( "#jonas-js" ).waypoint( function( direction ) {
 		$( "#jonas-js" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// Open Weather Map API
 	$( "#weather-api" ).waypoint( function( direction ) {
 		$( "#weather-api" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// SEO Basics
 	$( "#seo-basics" ).waypoint( function( direction ) {
 		$( "#seo-basics" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// Wireframing and Prototyping
 	$( "#udemy-wireframing" ).waypoint( function( direction ) {
 		$( "#udemy-wireframing" ).addClass( "animate-1 fadeInUp" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// ABOUT SECTION
 	$( ".tcf-photo" ).waypoint( function( direction ) {
 		$( ".tcf-photo" ).addClass( "animate-1 fadeInLeft" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	$( ".bio" ).waypoint( function( direction ) {
 		$( ".bio" ).addClass( "animate-1 fadeInRight" );
 	}, {
-		offset: "50%"
+		offset: "85%"
 	});
 
 	// CONNECT SECTION
