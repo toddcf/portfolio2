@@ -63,7 +63,8 @@ visibility:visible; /* lt-ie9 */
 #udemy-wireframing,
 .mini-logo,
 .tcf-photo,
-.bio {
+.bio,
+.connect-icon {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
 	        animation-duration: 1s;*/
@@ -94,7 +95,8 @@ visibility:visible; /* lt-ie9 */
 #udemy-wireframing.animate-1,
 .mini-logo.fadeInRight,
 .tcf-photo.animate-1.fadeInLeft,
-.bio.animate-1.fadeInRight {
+.bio.animate-1.fadeInRight,
+.connect-icon.animate-1.bounceInUp {
 	opacity: 1;
 }
 

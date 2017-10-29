@@ -318,4 +318,11 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// CONNECT SECTION
+	$( ".connect-icon" ).waypoint( function( direction ) {
+		$( ".connect-icon" ).addClass( "animate-1 bounceInUp" );
+	}, {
+		offset: "75%"
+	});
+
 } );
