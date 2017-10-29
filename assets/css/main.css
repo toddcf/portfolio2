@@ -100,7 +100,7 @@ header article h2 {
 }
 
 .proficiencies-card {
-	max-width: 200px;
+	max-width: 125px;
 	border: none !important;
 }
 
@@ -132,12 +132,12 @@ header article h2 {
 }
 
 .portfolio-card-ui-ux .card-footer {
-	background-color: #888;
+	background-color: #0a290a;
 }
 
-/*.portfolio-card-js .card-footer {
-	background-color: #666;
-}*/
+.portfolio-card-js .card-footer {
+	background-color: #567556;
+}
 
 .certificate-card .card-title {
 	margin-bottom: 0;
@@ -162,6 +162,13 @@ header article h2 {
 
 #about {
 	background-color: #fff;
+}
+
+.bio p a:link,
+.bio p a:visited {
+	text-decoration: none;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 2px;
 }
 
 #connect {
