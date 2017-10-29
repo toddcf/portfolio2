@@ -33,13 +33,9 @@ Second iteration of my web developer portfolio.
 
 ### UI/UX Projects
 
-- Style the associated modal.
-- Resize the My Portfolio image.
 - Each card:
   - Delete the different-sized images from your assets.
-  - Footer:
-    - Animate logos in one by one WHEN SCROLLED TO.
-    - Make all logos the same size.
+  - Footer: Make all logos the same size.
 
 ### JavaScript & jQuery Projects
 
@@ -62,10 +58,11 @@ Second iteration of my web developer portfolio.
 ### Connect
 
 - Rocket picture
-- .bounceInUp on scroll:
-	- GitHub icon (link opens new tab): fa-github or fa-github-square
-	- LinkedIn icon (link opens new tab): fa-linkedin-square
-	- Résumé icon (link opens new tab of PDF): fa-file-text or fa-file-text-o
+- Style icons:
+	- .bounceInUp on scroll.
+	- Text beneath each one.
+	- Adjust font size.
+	- Set hover effects, color, etc.
 
 ### Footer
 
