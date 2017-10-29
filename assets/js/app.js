@@ -322,7 +322,7 @@ $( document ).ready( function() {
 	$( ".connect-icon" ).waypoint( function( direction ) {
 		$( ".connect-icon" ).addClass( "animate-1 bounceInUp" );
 	}, {
-		offset: "75%"
+		offset: "85%"
 	});
 
 } );
