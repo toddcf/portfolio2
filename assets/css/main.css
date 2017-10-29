@@ -131,6 +131,14 @@ header article h2 {
 	border-bottom: 1px solid #000;
 }
 
+.portfolio-card-ui-ux .card-footer {
+	background-color: #888;
+}
+
+/*.portfolio-card-js .card-footer {
+	background-color: #666;
+}*/
+
 .certificate-card .card-title {
 	margin-bottom: 0;
 }
@@ -148,20 +156,12 @@ header article h2 {
 	background-color: #0a290a;
 }
 
-#ui-ux {
-	background-color: #fff;
-}
-
 #certificates {
 	background-color: #190D01;
 }
 
 #about {
 	background-color: #fff;
-}
-
-.coding-duration {
-	
 }
 
 #connect {
