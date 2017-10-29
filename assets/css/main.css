@@ -8,6 +8,20 @@ body {
 	box-sizing: border-box !important;
 }
 
+/* Remove Bootstrap 4's blue border when buttons are clicked: */
+.btn:focus,
+.btn:active,
+.btn:visited,
+button {
+	outline: none !important;
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
 header {
 	min-height: 100vh; /* NOTE: This is not keeping the button inside the header when in iPhone 7 landscape mode. */
 }
@@ -136,7 +150,8 @@ header article h2 {
 }
 
 .portfolio-card-js .card-footer {
-	background-color: #567556;
+	/*background-color: #567556;*/
+	background-color: #c0c0c0;
 }
 
 .certificate-card .card-title {

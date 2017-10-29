@@ -15,7 +15,7 @@ Second iteration of my web developer portfolio.
 
 ### All
 
-- Add new favicon.
+- N/A
 
 ### Header
 
@@ -29,8 +29,7 @@ Second iteration of my web developer portfolio.
 ### Proficiencies
 
 - Make all logos the same size.
-- On smaller screen sizes, reduce the max size of each logo.
-- Add effect where each logo animates into view when scrolled to.
+- .bounceInUp when scrolled to.
 
 ### UI/UX Projects
 
@@ -52,6 +51,8 @@ Second iteration of my web developer portfolio.
 	- Images:
 		- Hover: MD Bootstrap zoom effect.
 		- Make UCLA jpg the same size as the Udemy images.
+			- Udemy images are 1600 x 1194.
+			- UCLA image is 3300 x 2550.
 	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
 	- Buttons:
 		- Choose color.
@@ -59,26 +60,20 @@ Second iteration of my web developer portfolio.
 
 ### About
 
-- My image in a col-4.
-	- fadeInLeft on scroll.
-- Bio text in a col-8.
-	- Use JS date object to calculate how long I've been coding, and pass it into a span.
-		- Get current date. Subtract May 1, 2016 from current date. Store that result in a variable.
-		- If under two years: "almost two" years.
-		- If equal to or greater than two years: "over X" years.
-			- Spell out the numbers until double digits are reached. Then just pass in the numerals.
+- Image: .fadeInLeft on scroll.
 
 ### Connect
 
 - Rocket picture
-- GitHub icon (link opens new tab)
-- LinkedIn icon (link opens new tab)
-- Résumé icon (link opens new tab of PDF)
-- Phone & Email icon (see résumé)
+- .bounceInUp on scroll:
+	- GitHub icon (link opens new tab)
+	- LinkedIn icon (link opens new tab)
+	- Résumé icon (link opens new tab of PDF)
+	- Phone & Email icon (see résumé)
 
 ### Footer
 
-- Copyright (with JavaScript date).
+- Done!
 
 ## Mobile Responsiveness
 
