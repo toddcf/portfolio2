@@ -23,7 +23,7 @@ Second iteration of my web developer portfolio.
 
 ### Nav
 
-- Make bg white-opaque.
+- Make bg white-opaque AND gradient.
 - Get it to automatically close when a link is clicked, WITHOUT screwing up the scrolling feature.
 
 ### Proficiencies
@@ -50,9 +50,6 @@ Second iteration of my web developer portfolio.
 - Style and standardize all cards.
 	- Images:
 		- Hover: MD Bootstrap zoom effect.
-		- Make UCLA jpg the same size as the Udemy images.
-			- Udemy images are 1600 x 1194.
-			- UCLA image is 3300 x 2550.
 	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
 	- Buttons:
 		- Choose color.
@@ -66,10 +63,9 @@ Second iteration of my web developer portfolio.
 
 - Rocket picture
 - .bounceInUp on scroll:
-	- GitHub icon (link opens new tab)
-	- LinkedIn icon (link opens new tab)
-	- Résumé icon (link opens new tab of PDF)
-	- Phone & Email icon (see résumé)
+	- GitHub icon (link opens new tab): fa-github or fa-github-square
+	- LinkedIn icon (link opens new tab): fa-linkedin-square
+	- Résumé icon (link opens new tab of PDF): fa-file-text or fa-file-text-o
 
 ### Footer
 
