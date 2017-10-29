@@ -305,4 +305,17 @@ $( document ).ready( function() {
 		offset: "50%"
 	});
 
+	// ABOUT SECTION
+	$( ".tcf-photo" ).waypoint( function( direction ) {
+		$( ".tcf-photo" ).addClass( "animate-1 fadeInLeft" );
+	}, {
+		offset: "50%"
+	});
+
+	$( ".bio" ).waypoint( function( direction ) {
+		$( ".bio" ).addClass( "animate-1 fadeInRight" );
+	}, {
+		offset: "50%"
+	});
+
 } );

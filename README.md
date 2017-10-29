@@ -53,7 +53,7 @@ Second iteration of my web developer portfolio.
 
 ### About
 
-- Image: .fadeInLeft on scroll.
+- Done!
 
 ### Connect
 
