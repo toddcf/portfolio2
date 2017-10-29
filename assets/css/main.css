@@ -189,6 +189,7 @@ header article h2 {
 	background-image: url(../img/bg/cta02.jpg);
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .connect-link a:link,
