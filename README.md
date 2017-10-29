@@ -57,12 +57,7 @@ Second iteration of my web developer portfolio.
 
 ### Connect
 
-- Rocket picture
-- Style icons:
-	- .bounceInUp on scroll.
-	- Text beneath each one.
-	- Adjust font size.
-	- Set hover effects, color, etc.
+- Done!
 
 ### Footer
 

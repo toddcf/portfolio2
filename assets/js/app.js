@@ -319,8 +319,8 @@ $( document ).ready( function() {
 	});
 
 	// CONNECT SECTION
-	$( ".connect-icon" ).waypoint( function( direction ) {
-		$( ".connect-icon" ).addClass( "animate-1 bounceInUp" );
+	$( ".connect-link" ).waypoint( function( direction ) {
+		$( ".connect-link" ).addClass( "animate-1 bounceInUp" );
 	}, {
 		offset: "85%"
 	});

@@ -194,7 +194,7 @@ header article h2 {
 .connect-link a:link,
 .connect-link a:visited {
 
-	color: #555 !important;
+	color: #fff !important;
 	text-decoration: none; /* No default underline */
 	-webkit-transition: color 0.2s;
 			-o-transition: color 0.2s;
@@ -203,7 +203,7 @@ header article h2 {
 }
 
 .connect-link a:hover,
-.connect-link a:active { color: #fff !important; }
+.connect-link a:active { color: #999 !important; }
 
 .connect-icon {
 	font-size: 57px;
