@@ -64,7 +64,9 @@ visibility:visible; /* lt-ie9 */
 .mini-logo,
 .tcf-photo,
 .bio,
-.connect-link {
+#connect-github,
+#connect-linkedin,
+#connect-resume {
 	opacity: 0;
 	/*-webkit-animation-duration: 1s;
 	        animation-duration: 1s;*/
@@ -96,7 +98,9 @@ visibility:visible; /* lt-ie9 */
 .mini-logo.fadeInRight,
 .tcf-photo.animate-1.fadeInLeft,
 .bio.animate-1.fadeInRight,
-.connect-link.animate-1.bounceInUp {
+#connect-github.animate-1.bounceInUp,
+#connect-linkedin.animate-1.bounceInUp,
+#connect-resume.animate-1.bounceInUp {
 	opacity: 1;
 }
 

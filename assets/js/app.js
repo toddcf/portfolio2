@@ -401,8 +401,20 @@ $( document ).ready( function() {
 	});
 
 	// CONNECT SECTION
-	$( ".connect-link" ).waypoint( function( direction ) {
-		$( ".connect-link" ).addClass( "animate-1 bounceInUp" );
+	$( "#connect-github" ).waypoint( function( direction ) {
+		$( "#connect-github" ).addClass( "animate-1 bounceInUp" );
+	}, {
+		offset: "85%"
+	});
+
+	$( "#connect-linkedin" ).waypoint( function( direction ) {
+		$( "#connect-linkedin" ).addClass( "animate-1 bounceInUp" );
+	}, {
+		offset: "85%"
+	});
+
+	$( "#connect-resume" ).waypoint( function( direction ) {
+		$( "#connect-resume" ).addClass( "animate-1 bounceInUp" );
 	}, {
 		offset: "85%"
 	});

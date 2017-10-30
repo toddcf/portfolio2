@@ -44,12 +44,9 @@ Second iteration of my web developer portfolio.
 ### Education & Certificates
 
 - Style and standardize all cards.
-	- Images:
-		- Hover: MD Bootstrap zoom effect.
 	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
-	- Buttons:
-		- Choose color.
-		- Add waves effect when clicked.
+	- Buttons: Add waves effect when clicked.
+	- Images: MD Bootstrap zoom effect when hovered.
 
 ### About
 
