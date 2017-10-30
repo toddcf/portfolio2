@@ -15,7 +15,7 @@ Second iteration of my web developer portfolio.
 
 ### All
 
-- N/A
+- All card footers: Make all icons the same size. (May happen automatically when I recrop them in Photoshop.)
 
 ### Header
 
@@ -23,7 +23,6 @@ Second iteration of my web developer portfolio.
 
 ### Nav
 
-- Make bg white-opaque AND gradient.
 - Get it to automatically close when a link is clicked, WITHOUT screwing up the scrolling feature.
 
 ### Proficiencies
@@ -35,11 +34,12 @@ Second iteration of my web developer portfolio.
 
 - Each card:
   - Delete the different-sized images from your assets.
-  - Footer: Make all logos the same size.
+  - Showmore dimensions: 1350 x 900
+  
 
 ### JavaScript & jQuery Projects
 
-- Style and standardize all cards.
+- Done!
 
 ### Education & Certificates
 
