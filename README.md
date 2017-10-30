@@ -33,7 +33,7 @@ Second iteration of my web developer portfolio.
 ### UI/UX Projects
 
 - Each card:
-  - Delete the different-sized images from your assets.
+  - Change each img to a gif.
   - Showmore dimensions: 1350 x 900
   
 
@@ -64,6 +64,12 @@ Second iteration of my web developer portfolio.
 - Done!
 
 ## Mobile Responsiveness
+
+- Check each section at xs breakpoint.
+- Check each section at sm breakpoint.
+- Check each section at md breakpoint.
+- Check each section at lg breakpoint.
+- Check each section at xl breakpoint.
 
 ## Final Cleanup
 
