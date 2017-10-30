@@ -2,7 +2,7 @@
 
 Second iteration of my web developer portfolio.
 
-![Todd Croak-Falen | Web Developer](https://github.com/toddcf/portfolio2/blob/master/assets/img/bg/tropical.jpg "Todd Croak-Falen | Web Developer")
+![Todd Croak-Falen | Web Developer](https://github.com/toddcf/portfolio2/blob/master/assets/video/tcf-webdesign.gif "Todd Croak-Falen | Web Developer")
 
 ## Technologies Used
 
