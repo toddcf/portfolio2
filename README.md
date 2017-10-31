@@ -13,13 +13,9 @@ Second iteration of my web developer portfolio.
 
 ## This Iteration
 
-## Mobile Responsiveness
+## About
 
-- Check each section at xs breakpoint.
-- Check each section at sm breakpoint.
-- Check each section at md breakpoint.
-- Check each section at lg breakpoint.
-- Check each section at xl breakpoint.
+- Style CREATIVE WRITING link.
 
 ## Final Cleanup
 
@@ -60,3 +56,7 @@ Second iteration of my web developer portfolio.
 	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
 	- Buttons: Add waves effect when clicked.
 	- Images: MD Bootstrap zoom effect when hovered.
+
+### About
+
+- Fix the shape of the href links. (Right now, the text is inside a div that takes up 100% of its container, while the icon is only as wide as what you see.)
