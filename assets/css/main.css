@@ -40,16 +40,17 @@ header article {
 
 }
 
-header article h1 {
-	font-size: 6rem;
-	letter-spacing: 1.3rem;
+.main-name {
+	font-size: 0.8rem;
+	letter-spacing: 0.7rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
-	font-weight: 300;
+	font-weight: 400;
 	z-index: 10;
 }
 
-header article h2 {
-	font-size: 4rem;
+.main-subheading {
+	font-size: 0.75rem;
+	letter-spacing: 0.5rem;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 300;
 	z-index: 10;
@@ -212,4 +213,50 @@ header article h2 {
 
 .footer {
 	background-color: #000;
+}
+
+/* MEDIA QUERIES */
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+
+	.main-name {
+	font-size: 1rem;
+		letter-spacing: 1.3rem;
+		font-weight: 400;
+	}
+
+	.main-subheading {
+		font-size: 3rem;
+		text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
+		font-weight: 300;
+	}
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+
+	.main-name {
+		font-size: 6rem;
+		letter-spacing: 1.3rem;
+		font-weight: 300;
+	}
+
+	.main-subheading {
+		font-size: 4rem;
+	}
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+	.main-name {
+		font-size: 6rem;
+	}
+
 }
