@@ -44,7 +44,7 @@ header article {
 	font-size: 0.8rem;
 	letter-spacing: 0.7rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
-	font-weight: 400;
+	font-weight: 700;
 	z-index: 10;
 }
 
@@ -52,7 +52,7 @@ header article {
 	font-size: 0.75rem;
 	letter-spacing: 0.5rem;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
-	font-weight: 400;
+	font-weight: 700;
 	z-index: 10;
 }
 
@@ -223,13 +223,13 @@ header article {
 	.main-name {
 		font-size: 1.5rem;
 		letter-spacing: 1.3rem;
-		/*font-weight: 400;*/
+		font-weight: 400;
 	}
 
 	.main-subheading {
 		font-size: 1.3rem;
 		letter-spacing: 0.75rem;
-		/*font-weight: 300;*/
+		font-weight: 400;
 	}
 	
 }
