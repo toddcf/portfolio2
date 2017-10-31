@@ -13,53 +13,6 @@ Second iteration of my web developer portfolio.
 
 ## This Iteration
 
-### All
-
-- All card footers: Make all icons the same size. (May happen automatically when I recrop them in Photoshop.)
-
-### Header
-
-- Done!
-
-### Nav
-
-- Get it to automatically close when a link is clicked, WITHOUT screwing up the scrolling feature.
-
-### Proficiencies
-
-- Make all logos the same size.
-- .bounceInUp when scrolled to.
-
-### UI/UX Projects
-
-- Each card:
-  - Change each img to a gif.
-  - Showmore dimensions: 1350 x 900
-  
-
-### JavaScript & jQuery Projects
-
-- Done!
-
-### Education & Certificates
-
-- Style and standardize all cards.
-	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
-	- Buttons: Add waves effect when clicked.
-	- Images: MD Bootstrap zoom effect when hovered.
-
-### About
-
-- Done!
-
-### Connect
-
-- Done!
-
-### Footer
-
-- Done!
-
 ## Mobile Responsiveness
 
 - Check each section at xs breakpoint.
@@ -85,3 +38,25 @@ Second iteration of my web developer portfolio.
 	  - .fadeInUp when scrolled to.
 	  - 0.5s delay on second card.
 	  - 1s delay on third card.
+
+### Nav
+
+- Get it to automatically close when a link is clicked, WITHOUT screwing up the scrolling feature.
+
+### Proficiencies
+
+- .bounceInUp when scrolled to.
+
+### UI/UX Projects && JavaScript & jQuery Projects
+
+- Each card:
+	- Change each img to a gif.
+	- Showmore dimensions: 1350 x 900
+	- Footer: Make each coding icon the same size.
+
+### Education & Certificates
+
+- Style and standardize all cards.
+	- Make card-headers and card-titles the same height, even if some take up one line and others take up two.
+	- Buttons: Add waves effect when clicked.
+	- Images: MD Bootstrap zoom effect when hovered.

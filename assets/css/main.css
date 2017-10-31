@@ -121,6 +121,23 @@ header article {
 	border: none !important;
 }
 
+/* Match CSS3 logo's size to the other icons. */
+.css3-logo {
+
+	-webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+	    transform: scale(1.2);
+	
+}
+
+.bootstrap-logo {
+
+	-webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+	    transform: scale(0.8);
+
+}
+
 .mini-logo {
 	width: 20px;
 }
