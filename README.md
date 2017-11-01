@@ -11,6 +11,10 @@ Second iteration of my web developer portfolio. http://www.tcf-webdesign.com
 - Bootstrap 4 Beta
 - jQuery
 
+## This Iteration
+
+- Host Lato font.
+
 ## Future Iterations
 
 - Have each mobile-responsive row of cards fadeUp one after the other when scrolled to:
