@@ -4,7 +4,8 @@ body {
 
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box !important;
+	-webkit-box-sizing: border-box !important;
+	        box-sizing: border-box !important;
 
 }
 
@@ -84,7 +85,8 @@ header article {
 	border-radius: 0;
 	font-size: 150%;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
-	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 	z-index: 5;
 
 }
@@ -178,7 +180,7 @@ header article {
 
 }
 
-#ui-ux { background: linear-gradient(#fff, #888); }
+#ui-ux { background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#888)); background: -webkit-linear-gradient(#fff, #888); background: -o-linear-gradient(#fff, #888); background: linear-gradient(#fff, #888); }
 
 #javascript { background-color: #0a290a; }
 
