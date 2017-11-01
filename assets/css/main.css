@@ -126,7 +126,7 @@ header article {
 
 .proficiencies-card {
 
-	max-width: 125px;
+	max-width: 65px !important;
 	border: none !important;
 
 }
