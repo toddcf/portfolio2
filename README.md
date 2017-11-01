@@ -1,6 +1,6 @@
 # Portfolio 2
 
-Second iteration of my web developer portfolio.
+Second iteration of my web developer portfolio. http://www.tcf-webdesign.com
 
 ![Todd Croak-Falen | Web Developer](https://github.com/toddcf/portfolio2/blob/master/assets/video/tcf-webdesign.gif "Todd Croak-Falen | Web Developer")
 
@@ -10,12 +10,6 @@ Second iteration of my web developer portfolio.
 - CSS3
 - Bootstrap 4 Beta
 - jQuery
-
-## This Iteration
-
-## Final Cleanup
-
-- Add Google Analytics, but only right before deployment. (Don't want to screw things up with the gh-pages version.)
 
 ## Future Iterations
 
