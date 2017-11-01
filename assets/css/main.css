@@ -1,11 +1,11 @@
-* {
-	font-family: 'Lato', sans-serif;
-}
+* { font-family: 'Lato', sans-serif; }
 
 body {
+
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box !important;
+
 }
 
 /* Remove Bootstrap 4's blue border when buttons are clicked: */
@@ -13,18 +13,16 @@ body {
 .btn:active,
 .btn:visited,
 button {
+
 	outline: none !important;
 	box-shadow: none !important;
 	-webkit-box-shadow: none !important;
+
 }
 
-button:hover {
-	cursor: pointer;
-}
+button:hover { cursor: pointer; }
 
-header {
-	min-height: 100vh; /* NOTE: This is not keeping the button inside the header when in iPhone 7 landscape mode. */
-}
+header { min-height: 100vh; }
 
 header article {
 
@@ -41,23 +39,27 @@ header article {
 }
 
 .main-name {
+
 	font-size: 0.8rem;
 	letter-spacing: 0.7rem;
 	text-shadow: 20px 20px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 700;
 	z-index: 10;
+
 }
 
 .main-subheading {
+
 	font-size: 0.75rem;
 	letter-spacing: 0.5rem;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
 	font-weight: 700;
 	z-index: 10;
+
 }
 
 #video-background {
-/*  making the video fullscreen  */
+	/* Makes the video fullscreen */
 	position: fixed;
 	right: 0; 
 	bottom: 0;
@@ -77,48 +79,54 @@ header article {
 
 .btn-enter:link,
 .btn-enter:visited {
+	
 	border: 5px #fff solid;
 	border-radius: 0;
 	font-size: 150%;
 	text-shadow: 9px 9px 8px rgba(0, 0, 0, 0.5);
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 	z-index: 5;
+
 }
 
 .btn-enter:hover,
 .btn-enter:active {
+	
 	color: #ffd700 !important;
 	border: 5px #ffd700 solid !important;
 	border-radius: 0;
+
 }
 
 .section-header {
+
 	padding-top: 70px;
 	padding-bottom: 40px;
 	font-size: 1.5rem;
 	letter-spacing: 0.3rem;
 	font-weight: 700;
-	/*border-bottom: 1px #fff solid;*/
 
 }
 
 #ui-ux,
 #javascript,
 #certificates,
-#about {
-	min-height: 100vh;
-}
+#about { min-height: 100vh; }
 
 #proficiencies {
+
 	background: url(../img/bg/bg01.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
+
 }
 
 .proficiencies-card {
+
 	max-width: 125px;
 	border: none !important;
+
 }
 
 /* Match CSS3 logo's size to the other icons. */
@@ -130,6 +138,7 @@ header article {
 	
 }
 
+/* Match Bootstrap logo's size to the other icons. */
 .bootstrap-logo {
 
 	-webkit-transform: scale(0.8);
@@ -138,69 +147,48 @@ header article {
 
 }
 
-.mini-logo {
-	width: 20px;
-}
+.mini-logo { width: 20px; }
 
-.portfolio-card-ui-ux {
-	border: 1px solid #000;
-}
+.portfolio-card-ui-ux { border: 1px solid #000; }
 
 .portfolio-card-js,
-.certificate-card {
-	/*border: 1px solid #fff;*/
-	border: none;
-}
+.certificate-card { border: none; }
 
-.portfolio-card-body {
-	min-height: 185px;
-}
+.portfolio-card-body { min-height: 185px; }
 
-.portfolio-card-body-extended {
-	min-height: 275px;
-}
+.portfolio-card-body-extended { min-height: 275px; }
 
 .portfolio-card-body .card-title {
+
 	padding-bottom: 15px;
 	border-bottom: 1px solid #000;
+
 }
 
-.portfolio-card-ui-ux .card-footer {
-	background-color: #0a290a;
-}
+.portfolio-card-ui-ux .card-footer { background-color: #0a290a; }
 
-.portfolio-card-js .card-footer {
-	/*background-color: #567556;*/
-	background-color: #c0c0c0;
-}
+.portfolio-card-js .card-footer { background-color: #c0c0c0; }
 
-.certificate-card .card-title {
-	margin-bottom: 0;
-}
+.certificate-card .card-title { margin-bottom: 0; }
 
 .btn-certificates {
+
 	background-color: #555;
 	color: #fff;
+
 }
 
-#ui-ux {
-	background: linear-gradient(#fff, #888);
-}
+#ui-ux { background: linear-gradient(#fff, #888); }
 
-#javascript {
-	background-color: #0a290a;
-}
+#javascript { background-color: #0a290a; }
 
-#certificates {
-	background-color: #190D01;
-}
+#certificates { background-color: #190D01; }
 
-#about {
-	background-color: #fff;
-}
+#about { background-color: #fff; }
 
 .bio a:link,
 .bio a:visited {
+
 	text-decoration: none !important;
 	border-bottom: 2px solid #c0c0c0 !important;
 	padding-bottom: 2px !important;
@@ -208,28 +196,33 @@ header article {
 	-webkit-transition: border-bottom 0.2s;
 			-o-transition: border-bottom 0.2s;
 			transition: border-bottom 0.2s;
+
 }
 
 .bio a:hover,
 .bio a:active {
+
 	text-decoration: none !important;
 	border-bottom: 2px solid #000 !important;
 	padding-bottom: 2px !important;
 	color: inherit !important;
+
 }
 
 #connect {
+
 	background-image: url(../img/bg/cta02.jpg);
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 }
 
 .connect-link a:link,
 .connect-link a:visited {
 
 	color: #fff !important;
-	text-decoration: none; /* No default underline */
+	text-decoration: none;
 	-webkit-transition: color 0.2s;
 			-o-transition: color 0.2s;
 			transition: color 0.2s;
@@ -239,13 +232,9 @@ header article {
 .connect-link a:hover,
 .connect-link a:active { color: #999 !important; }
 
-.connect-icon {
-	font-size: 57px;
-}
+.connect-icon { font-size: 57px; }
 
-.footer {
-	background-color: #000;
-}
+.footer { background-color: #000; }
 
 /* MEDIA QUERIES */
 
@@ -253,20 +242,22 @@ header article {
 @media (min-width: 576px) {
 
 	.main-name {
+
 		font-size: 1.5rem;
 		letter-spacing: 1.3rem;
 		font-weight: 400;
+
 	}
 
 	.main-subheading {
+
 		font-size: 1.3rem;
 		letter-spacing: 0.75rem;
 		font-weight: 400;
+
 	}
 
-	.section-header {
-		font-size: 2rem;
-	}
+	.section-header { font-size: 2rem; }
 	
 }
 
@@ -274,35 +265,31 @@ header article {
 @media (min-width: 768px) {
 
 	.main-name {
+
 		font-size: 3rem;
 		letter-spacing: 1.3rem;
 		font-weight: 300;
+
 	}
 
 	.main-subheading {
+
 		font-size: 2rem;
 		letter-spacing: 0.75rem;
 		font-weight: 300;
-	}
-
-	.section-header {
-
-		font-size: 2.5rem;
 
 	}
+
+	.section-header { font-size: 2.5rem; }
 
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 
-	.main-name {
-		font-size: 4.5rem;
-	}
+	.main-name { font-size: 4.5rem; }
 
-	.main-subheading {
-		font-size: 3rem;
-	}
+	.main-subheading { font-size: 3rem; }
 
 	.section-header {
 		
@@ -316,22 +303,15 @@ header article {
 /*Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
-	.main-name {
-		font-size: 6rem;
-	}
+	.main-name { font-size: 6rem; }
 
 	.main-subheading {
+
 		font-size: 4rem;
 		letter-spacing: 1rem;
 
 	}
 
-	.section-header {
-		
-		font-size: 4rem;
-		/*letter-spacing: 0.3rem;*/
-		
-
-	}
+	.section-header { font-size: 4rem; }
 
 }
