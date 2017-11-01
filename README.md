@@ -47,6 +47,6 @@ Second iteration of my web developer portfolio. http://www.tcf-webdesign.com
 	- Buttons: Add waves effect when clicked.
 	- Images: MD Bootstrap zoom effect when hovered.
 
-### About
+### Connect
 
 - Fix the shape of the href links. (Right now, the text is inside a div that takes up 100% of its container, while the icon is only as wide as what you see.)
