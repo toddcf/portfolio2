@@ -13,10 +13,6 @@ Second iteration of my web developer portfolio.
 
 ## This Iteration
 
-## About
-
-- Style CREATIVE WRITING link.
-
 ## Final Cleanup
 
 - Add Google Analytics, but only right before deployment. (Don't want to screw things up with the gh-pages version.)
