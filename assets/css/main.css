@@ -132,7 +132,10 @@ header article {
 }
 
 .proficiencies-card h6 {
-	font-size: 0.89rem;
+
+	font-size: 0.67rem;
+	font-weight: 700;
+
 }
 
 /* Match CSS3 logo's size to the other icons. */
