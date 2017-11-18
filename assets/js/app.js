@@ -237,6 +237,21 @@ $( document ).ready( function() {
 		offset: "95%"
 	});
 
+	// Color Guessing Game
+	$( "#color-game" ).waypoint( function( direction ) {
+		$( "#color-game" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "85%"
+	});
+
+	$( "#color-game .mini-logo" ).waypoint( function( direction ) {
+		$( "#color-game .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#color-game .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#color-game .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+	}, {
+		offset: "95%"
+	});
+
 	// Wealth Tracker
 	$( "#wealth-tracker" ).waypoint( function( direction ) {
 		$( "#wealth-tracker" ).addClass( "animate-1 fadeInUp" );
