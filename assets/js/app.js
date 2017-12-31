@@ -402,6 +402,13 @@ $( document ).ready( function() {
 		offset: "85%"
 	});
 
+	// Photoshop for Web Design Beginners
+	$( "#udemy-photoshop-beginners" ).waypoint( function( direction ) {
+		$( "#udemy-photoshop-beginners" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "85%"
+	});
+
 	// ABOUT SECTION
 	$( ".tcf-photo" ).waypoint( function( direction ) {
 		$( ".tcf-photo" ).addClass( "animate-1 fadeInLeft" );
