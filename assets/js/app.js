@@ -353,6 +353,22 @@ $( document ).ready( function() {
 		offset: "95%"
 	});
 
+	// jQuery To Do List
+	$( "#jquery-todo" ).waypoint( function( direction ) {
+		$( "#jquery-todo" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "85%"
+	});
+
+	$( "#jquery-todo .mini-logo" ).waypoint( function( direction ) {
+		$( "#jquery-todo .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#jquery-todo .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#jquery-todo .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+		$( "#jquery-todo .mini-logo-d").addClass( "animate-0-75 animate-delay-c fadeInRight");
+	}, {
+		offset: "95%"
+	});
+
 	// The Coding Boot Camp at UCLA Extension
 	$( "#ucla-boot-camp" ).waypoint( function( direction ) {
 		$( "#ucla-boot-camp" ).addClass( "animate-1 fadeInUp" );
