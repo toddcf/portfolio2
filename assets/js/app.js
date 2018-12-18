@@ -79,6 +79,22 @@ $( document ).ready( function() {
 
 	// ANIMATIONS ON SCROLL
 
+	// Acura of Tempe
+	$( "#acura-of-tempe" ).waypoint( function( direction ) {
+		$( "#acura-of-tempe" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "85%"
+	});
+	// We actually aren't using "direction" in this case, because this animation will only happen once.
+
+	$( "#acura-of-tempe .mini-logo" ).waypoint( function( direction ) {
+		$( "#acura-of-tempe .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#acura-of-tempe .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#acura-of-tempe .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+	}, {
+		offset: "95%"
+	});
+
 	// Omnifood
 	$( "#omnifood" ).waypoint( function( direction ) {
 		$( "#omnifood" ).addClass( "animate-1 fadeInUp" );
