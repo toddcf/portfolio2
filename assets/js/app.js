@@ -95,6 +95,22 @@ $( document ).ready( function() {
 		offset: "95%"
 	});
 
+	// BMW of El Cajon
+	$( "#bmw-el-cajon" ).waypoint( function( direction ) {
+		$( "#bmw-el-cajon" ).addClass( "animate-1 fadeInUp" );
+	}, {
+		offset: "85%"
+	});
+	// We actually aren't using "direction" in this case, because this animation will only happen once.
+
+	$( "#bmw-el-cajon .mini-logo" ).waypoint( function( direction ) {
+		$( "#bmw-el-cajon .mini-logo-a").addClass( "animate-0-75 fadeInRight");
+		$( "#bmw-el-cajon .mini-logo-b").addClass( "animate-0-75 animate-delay-a fadeInRight");
+		$( "#bmw-el-cajon .mini-logo-c").addClass( "animate-0-75 animate-delay-b fadeInRight");
+	}, {
+		offset: "95%"
+	});
+
 	// Omnifood
 	$( "#omnifood" ).waypoint( function( direction ) {
 		$( "#omnifood" ).addClass( "animate-1 fadeInUp" );
