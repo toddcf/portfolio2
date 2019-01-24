@@ -1,8 +1,8 @@
 # Portfolio 2
 
-Second iteration of my web developer portfolio. http://www.tcf-webdesign.com
+Second iteration of my web design portfolio. http://www.tcf-webdesign.com
 
-![Todd Croak-Falen | Web Developer](https://github.com/toddcf/portfolio2/blob/master/assets/video/tcf-webdesign.gif "Todd Croak-Falen | Web Developer")
+![Todd Croak-Falen | UI/UX Designer](https://github.com/toddcf/portfolio2/blob/master/assets/video/tcf-webdesign.gif "Todd Croak-Falen | UI/UX Designer")
 
 ## Technologies Used
 
