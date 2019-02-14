@@ -100,7 +100,7 @@ header article {
 
 	/*  Background fallback in case of IE8 & down, or in case video doens't load, such as with slower connections  */
 	/* VIDEO PLAYS ON COMPUTER, BUT NOT ON IPHONE. SHOWS STILL IMG INSTEAD. */
-	background: url(../img/bg/tropical.jpg);
+	background: url(../img/bg/tropical-1920x1080-min.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 
